@@ -15,48 +15,23 @@
 </head>
 
 <body>
-    <div class="container-fluid points center-block">
-        <div class="instructions center-block" style="display:none">
-            <h2> Instructions</h2>
-            <p>
-                You will be given a randon number at the start of the game. There are four crystals below.</p>
-            <p>By clicking on a crystal you will add a specific amount of points to you total score. You win the game by matching your total score to random number, you loose the game if your total score goes above the random number. </p>
-            <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</p>
-            <p>You win the game by matching your total score to random number, you loose the game if your total score goes above the random number.</p>
-            <p>The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</p>
-            <button id="button-start">Lets' Start</button>
-        </div>
-        <div id="game-container">
-            <div class="row">
-                <div id="score">
-                    <p id="win">Win: </p>
-                    <p id="losses">Looses: </p>
-                </div>
-            </div>
-            <div class="container game center-block">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Cristals Collector</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="random-number"></div>
+    <div class="container">
+        <div class="row">
+            <div class "col-md-12">
 
-                        <div id="cristals">
-                            <img src="">
-                        </div>
-                        <div id="container-score">
-                            <p>Your total score is: </p>
-                            <div id="user-score">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h1> Trivia Game</h1>
+                <div id="timer"></div>
+                <div id="question"></div>
+                <form id="form-choices">
+
+                </form>
+
+                <div id="answear"></div>
             </div>
         </div>
-        <script src="./assets/javascript/game.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+    <script src="./assets/javascript/app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
