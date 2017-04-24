@@ -91,9 +91,9 @@ var triviaQuiz = {
             console.log("Score Right Answear:" + rightAnswear);
             //move to next question
             setTimeout(function myFunction() {
-                alert('Was called after 2 seconds');
+                triviaQuiz.nextQuestion(i, formChoices);
             }, 2000);
-            setTimeout(triviaQuiz.nextQuestion(i, formChoices), 20000)
+
 
         } else if (isRight === false) {
             wrongAnswear = wrongAnswear + 1;
@@ -104,6 +104,7 @@ var triviaQuiz = {
     },
 
     nextQuestion: function() {
+        message.text("");
         i = +i + 1;
         console.log("I: " + i);
         formChoices.empty();
