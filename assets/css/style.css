@@ -1,24 +1,97 @@
+
+   body {
+    background-color:#95419D!important;
+    background-image: url("../images/new-york-01.jpg") !important;
+
+
+}
+
 h1 {
     text-align: center;
+    color:#95419D !important;
 }
 
 #question,
-#form-choices,
-#answear,
-#timer {
+#instructions,
+#message,
+#score
+ {
     margin-top: 40px;
     text-align: center;
 }
 
-input[type=radio] {
+#timer{
+    font-size: 20px;
+    font-weight: bold;
+    color:#95419D;
+    text-align: center;
+}
+
+
+#question{
+    background: #95419D;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center !important;
+    margin:none;
+    color:#fff;
+
+}
+
+#form-choices{
+    margin-top: 20px;
+        font-size: 18px;
+
+}
+
+p{
+text-align: center !important;
+ margin:none !important;
+
+}
+
+#instructions, #card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 750px;
+    background: #fff;
+    padding: 40px;
+    margin-top: 20%;
+
+}
+
+
+input[type="radio"] {
     width: 30px;
     margin: 0;
-    padding: 0;
-    font-size: 1em;
+    text-align: left;
+    padding-top:10px;
+    
 }
 
 #message {
-    color: red;
+    color:#95419D;
     font-size: 20px;
-    font-weight: bold;
+}
+
+i.fa-thumbs-up{
+    font-size: 34px;
+    color:#66CD00;
+}
+
+i.fa-thumbs-down{
+    font-size: 34px;
+    color:#ff3333;
+}
+
+
+#answear{
+
+font-size: 24px;
+color:#000;
+text-align: center;
+margin-top: 10px;
+
 }
